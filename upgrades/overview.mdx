@@ -1,0 +1,83 @@
+---
+title: "Manage product upgrades in the Redwood Cloud Portal"
+description: "Understand how Redwood Cloud Portal handles product upgrades, including scheduled maintenance, upgrade windows, and how to stay informed about upcoming changes."
+sidebarTitle: "Overview"
+---
+
+Redwood manages all upgrades to your SaaS product instances — RunMyJobs, Finance Automation, and JSCAPE — and deploys them to your environments on your behalf. The Redwood Cloud Portal gives you visibility into what's coming and control over when upgrades are applied, so you can align maintenance with your operational schedule.
+
+## How upgrades work
+
+Redwood prepares and packages every upgrade, then makes it available for your environments through the portal. You don't need to download software, manage installation packages, or handle deployment infrastructure. Redwood handles all of that.
+
+When an upgrade is available for one of your environments, you'll see it listed in the **Upgrades** section of the portal. From there, you decide when to apply it — within any constraints set by the upgrade type.
+
+### Types of upgrades
+
+| Type | Description |
+|------|-------------|
+| **Major release** | A significant new version with new features, architectural changes, or breaking changes. Major releases require advance scheduling and typically involve longer maintenance windows. |
+| **Minor update** | Feature additions and improvements within the same major version. Lower risk and typically shorter maintenance windows. |
+| **Patch** | Bug fixes and security updates. Patches are often time-sensitive and may have shorter scheduling windows. |
+
+<Note>
+  The upgrade type is shown in the **Upgrades** section alongside the version number and release notes link. Review release notes before scheduling to understand what changes are included.
+</Note>
+
+## Mandatory vs. optional upgrades
+
+Not all upgrades are optional. Redwood classifies each upgrade as either mandatory or optional:
+
+- **Mandatory upgrades** must be applied by a deadline set by Redwood. These typically include critical security patches or fixes required to maintain service quality and compliance. If you don't schedule a mandatory upgrade before the deadline, Redwood may apply it automatically during a default maintenance window.
+- **Optional upgrades** can be applied at your discretion. These are typically minor updates or feature releases where you choose whether and when to upgrade.
+
+<Warning>
+  Mandatory upgrades have a scheduled deadline. If the deadline passes without you scheduling the upgrade, Redwood will apply it automatically. You'll receive advance notice before this occurs.
+</Warning>
+
+## How you're notified about upgrades
+
+Redwood uses multiple channels to keep you informed:
+
+- **Portal notifications** — When a new upgrade is available, a notification appears in the portal. You can view all pending and upcoming upgrades from the **Upgrades** section.
+- **Email notifications** — Administrators receive email alerts when upgrades become available and as deadlines approach for mandatory upgrades.
+- **In-portal reminders** — As a scheduling deadline approaches, the portal displays reminders on the relevant environment's upgrade status.
+
+<Tip>
+  Configure your notification preferences in **Settings** to make sure the right people on your team receive upgrade alerts. For critical environments, consider adding multiple administrator email addresses.
+</Tip>
+
+## Controlling when upgrades happen
+
+The portal's upgrade windows feature lets you define recurring time slots when scheduled maintenance is allowed to run. When you schedule an upgrade, it runs within the next available upgrade window that falls after your chosen date.
+
+This means you can:
+
+- Restrict upgrades to off-peak hours (e.g., weekends or overnight)
+- Prevent upgrades during critical business periods (e.g., financial close, high-traffic seasons)
+- Align maintenance timing across multiple environments
+
+<Info>
+  Upgrade windows apply at the environment level. You can configure different windows for production, staging, and development environments to match the risk tolerance and usage patterns of each.
+</Info>
+
+## Upgrade process overview
+
+When an upgrade runs, the sequence is:
+
+1. The environment enters a maintenance state — users may experience brief unavailability depending on the upgrade type.
+2. Redwood applies the upgrade to the environment's infrastructure.
+3. The system performs automated health checks.
+4. The environment returns to normal operation.
+5. You receive a confirmation notification once the upgrade completes successfully.
+
+The duration of maintenance varies by upgrade type. Major releases typically take longer than patches. Estimated maintenance duration is shown in the portal when you schedule an upgrade.
+
+<Note>
+  Your end users will typically see a maintenance page or brief unavailability during the upgrade window. Communicate planned maintenance windows to your users in advance to minimize disruption.
+</Note>
+
+## Next steps
+
+- [Schedule an upgrade](/upgrades/scheduling) for one of your environments
+- [Configure upgrade windows](/upgrades/upgrade-windows) to control when maintenance can occur

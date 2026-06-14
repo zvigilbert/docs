@@ -1,0 +1,106 @@
+---
+title: "Monitor user and system activity with audit logs"
+description: "Use the Redwood Cloud Portal activity logs to review a complete audit trail of user actions and automated events across your environments and portal settings."
+sidebarTitle: "Activity Logs"
+---
+
+The Redwood Cloud Portal records every significant action taken in your account—by users and automated processes alike—in a continuously updated activity log. Use these logs to investigate incidents, satisfy compliance requirements, or simply understand what changed and when.
+
+## What activity logs capture
+
+Activity logs track events across the portal, including:
+
+- **User logins** — Sign-in and sign-out events, including failed login attempts
+- **User management** — User creation, deletion, role changes, and permission updates
+- **Environment actions** — Connections, disconnections, and configuration changes to RunMyJobs, Finance Automation, and JSCAPE environments
+- **Upgrade activity** — Scheduled upgrades, upgrade window changes, and completed upgrade events
+- **Portal settings** — Changes to SSO configuration, notification preferences, and account settings
+- **Automated events** — System-initiated actions such as scheduled maintenance and automated upgrades
+
+<Note>
+  Activity logs capture events at the portal level. Actions taken inside a product environment (such as RunMyJobs job executions) are recorded in that product's own audit logs, not here.
+</Note>
+
+## Navigate to activity logs
+
+<Steps>
+  <Step title="Sign in to the portal">
+    Go to [portal.redwood.cloud](https://portal.redwood.cloud/) and sign in with your credentials.
+  </Step>
+  <Step title="Open the Monitoring section">
+    In the left navigation, select **Monitoring** to expand the section.
+  </Step>
+  <Step title="Select Activity Logs">
+    Click **Activity Logs** to open the log viewer.
+  </Step>
+</Steps>
+
+## Understanding log entries
+
+Each entry in the activity log contains the following fields:
+
+| Field | Description |
+|---|---|
+| **Timestamp** | The date and time the action occurred, displayed in your local timezone |
+| **User** | The email address of the user who performed the action, or `System` for automated events |
+| **Action** | A description of what was done (for example, `User created` or `Environment connected`) |
+| **Resource** | The specific object affected, such as a user name, environment name, or setting |
+| **Result** | Whether the action succeeded or failed |
+| **IP Address** | The originating IP address for user-initiated actions |
+
+## Filter activity logs
+
+Use the filter controls above the log table to narrow results by:
+
+- **Date range** — Select a start and end date to view activity within a specific window
+- **User** — Filter to actions performed by a specific user account
+- **Action type** — Show only a category of events, such as user management or environment actions
+- **Result** — Display only successful or only failed actions
+
+<Tip>
+  Combine filters to investigate specific incidents. For example, filter by a user and a date range to see everything that user did during a session.
+</Tip>
+
+To reset all filters and return to the full log, click **Clear filters**.
+
+## Export activity logs
+
+You can download a copy of the activity log for offline analysis, archiving, or sharing with auditors.
+
+<Steps>
+  <Step title="Apply any filters">
+    If you need only a subset of the log (for example, a specific date range), apply those filters before exporting.
+  </Step>
+  <Step title="Click Export">
+    Select **Export** in the top-right corner of the log viewer.
+  </Step>
+  <Step title="Choose a format">
+    Select your preferred format — CSV or JSON — and confirm. The file downloads to your browser's default download location.
+  </Step>
+</Steps>
+
+<Note>
+  Exports are limited to the currently filtered view. If no filters are applied, the full retained log history is exported.
+</Note>
+
+## Log retention
+
+Activity logs are retained for **90 days**. Events older than 90 days are permanently removed and cannot be recovered. If you need to keep records beyond this window, export logs regularly and store them in your own archive.
+
+<Tip>
+  Schedule a recurring export—monthly or quarterly—to maintain a long-term audit trail outside the portal.
+</Tip>
+
+## Common use cases
+
+**Security auditing**
+Review login events and configuration changes to detect unauthorized access or unexpected modifications. Filter by failed results to surface failed login attempts or denied actions.
+
+**Troubleshooting**
+When something changes unexpectedly—an environment goes offline, a user loses access—the activity log lets you pinpoint who made what change and when.
+
+**Compliance**
+Regulated environments often require documented evidence of access and change controls. Export activity logs to provide auditors with a complete, tamper-evident record of portal activity.
+
+**Change management**
+Before and after scheduled upgrades or maintenance windows, review activity logs to confirm actions completed as expected or to identify any unintended side effects.

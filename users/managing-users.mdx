@@ -1,0 +1,125 @@
+---
+title: "Create and manage users in Redwood Cloud Portal"
+description: "Learn how to create, edit, and deactivate user accounts in the Redwood Cloud Portal to control who can access your Redwood product environments."
+sidebarTitle: "Managing Users"
+---
+
+The Redwood Cloud Portal gives you full control over who can access your organization's Redwood environments. You can create new user accounts, invite team members by email, update roles, and deactivate users who no longer need access — all from a single **Users** section in the portal.
+
+## Navigate to the Users section
+
+From the portal home, select **Users & Access** in the left navigation sidebar. The **Users** page lists all accounts in your organization, along with each user's name, email address, role, and current status.
+
+## User account statuses
+
+| Status | Description |
+|---|---|
+| **Active** | The user has accepted their invitation and can sign in. |
+| **Pending invite** | An invitation email has been sent but the user has not yet accepted it. |
+| **Inactive** | The account has been deactivated and the user cannot sign in. |
+
+## Create a new user
+
+<Steps>
+  <Step title="Open the Users page">
+    In the left navigation sidebar, select **Users & Access**, then select **Users**.
+  </Step>
+  <Step title="Click Add User">
+    Select **Add User** in the top-right corner of the Users page.
+  </Step>
+  <Step title="Enter user details">
+    Complete the required fields:
+
+    - **First name** and **Last name**
+    - **Email address** — used as the user's login identifier
+    - **Role** — select the appropriate role for this user (see [Roles & Permissions](/users/roles-and-permissions))
+  </Step>
+  <Step title="Send the invitation">
+    Select **Save** to create the account and send an invitation email to the address you provided. The user's status is set to **Pending invite** until they accept.
+  </Step>
+</Steps>
+
+<Note>
+  The invitation email contains a link that expires after 72 hours. If the user does not accept within that window, you will need to resend the invitation.
+</Note>
+
+## Invite a user by email
+
+If you want to quickly add someone without filling in their full profile upfront, you can invite them by email address alone. The user completes their own profile when they accept the invitation.
+
+<Steps>
+  <Step title="Open Add User">
+    On the **Users** page, select **Add User**.
+  </Step>
+  <Step title="Enter their email and role">
+    Provide the user's **Email address** and assign a **Role**. The name fields are optional at this stage.
+  </Step>
+  <Step title="Send the invite">
+    Select **Save**. The invitee receives an email prompting them to set up their account.
+  </Step>
+</Steps>
+
+<Tip>
+  You can resend a pending invitation from the user's detail page. Select the user's name from the list, then select **Resend Invitation**.
+</Tip>
+
+## Edit a user's details or role
+
+<Steps>
+  <Step title="Locate the user">
+    On the **Users** page, find the user you want to update. Use the search bar to filter by name or email.
+  </Step>
+  <Step title="Open their profile">
+    Select the user's name to open their account detail page.
+  </Step>
+  <Step title="Edit the fields">
+    Select **Edit** and update any of the following:
+
+    - **Name** (first or last)
+    - **Email address**
+    - **Role**
+  </Step>
+  <Step title="Save your changes">
+    Select **Save** to apply the updates immediately.
+  </Step>
+</Steps>
+
+<Warning>
+  Changing a user's role takes effect immediately. The user's permissions update the next time they perform an action in the portal — no sign-out is required.
+</Warning>
+
+## Deactivate or remove a user
+
+Deactivating a user prevents them from signing in without permanently deleting their account history. This is the recommended approach when someone leaves your organization or no longer needs access.
+
+<Steps>
+  <Step title="Open the user's profile">
+    On the **Users** page, select the user's name.
+  </Step>
+  <Step title="Deactivate the account">
+    Select **Deactivate User**. Confirm the action in the dialog that appears.
+  </Step>
+</Steps>
+
+The user's status changes to **Inactive** and they are immediately prevented from signing in. You can reactivate the account at any time by opening their profile and selecting **Reactivate User**.
+
+<Warning>
+  If SSO is enabled for your organization, deactivating a user in the portal does not automatically revoke their access in your identity provider. Disable the user in your IdP as well to fully terminate their access.
+</Warning>
+
+## Reset a user's password
+
+Password resets apply only to users who sign in with a portal-managed password. If your organization uses SSO, password management is handled by your identity provider.
+
+<Steps>
+  <Step title="Open the user's profile">
+    On the **Users** page, select the user's name.
+  </Step>
+  <Step title="Send a reset email">
+    Select **Reset Password**. The portal sends a password reset email to the user's registered email address.
+  </Step>
+</Steps>
+
+<Note>
+  Users can also reset their own passwords from the portal sign-in page by selecting **Forgot password**.
+</Note>

@@ -1,0 +1,79 @@
+---
+title: "Redwood environments: what they are and how they work"
+description: "Understand what environments are in the Redwood Cloud Portal, including how RunMyJobs, Finance Automation, and JSCAPE instances are organized."
+sidebarTitle: "Overview"
+---
+
+Environments are your individual instances of Redwood SaaS products — each one is a fully isolated deployment of RunMyJobs, Finance Automation, or JSCAPE that your organization uses for a specific purpose. The Redwood Cloud Portal gives you a single place to see all of your environments at once, check their status, and launch them without hunting for separate URLs or credentials.
+
+## What an environment is
+
+Each environment corresponds to one running instance of a Redwood product. When Redwood provisions your organization's subscription, it creates one or more environments depending on your contract. A typical organization has at least two environments per product: one for production workloads and one for testing or staging.
+
+Environments are independent of each other. Changes you make in a staging environment — such as testing a new job schedule or file transfer configuration — do not affect your production environment until you intentionally promote or replicate them.
+
+<Note>
+  The number and type of environments available to your organization depends on your Redwood contract. Contact your Redwood account team if you need additional environments provisioned.
+</Note>
+
+## The three Redwood SaaS products
+
+Your environments will be instances of one or more of the following products:
+
+<CardGroup cols={2}>
+  <Card title="RunMyJobs" icon="calendar-check">
+    A job scheduling and workload automation platform. RunMyJobs environments let you define, schedule, monitor, and manage batch jobs and automated workflows across your enterprise.
+  </Card>
+  <Card title="Finance Automation" icon="chart-line">
+    A platform for automating financial processes such as period-end close, reconciliation, and reporting. Finance Automation environments connect to your financial systems and orchestrate process execution.
+  </Card>
+  <Card title="JSCAPE" icon="arrow-right-arrow-left">
+    A managed file transfer (MFT) solution. JSCAPE environments handle secure file exchange between internal systems and external trading partners using protocols such as SFTP, FTPS, and AS2.
+  </Card>
+</CardGroup>
+
+## Multiple environments per product
+
+Most organizations maintain separate environments for different stages of the software lifecycle:
+
+- **Production** — Live systems serving real business workloads. Treat changes here carefully.
+- **Staging / UAT** — Pre-production environments used to validate configurations, integrations, and upgrades before they reach production.
+- **Development / Test** — Sandboxes for experimenting with new configurations without risk to production data or processes.
+
+The portal displays all of your environments together regardless of product or type, so you can manage your entire Redwood footprint from one dashboard.
+
+## The environments dashboard
+
+When you navigate to **Environments** in the portal, you see a list of every environment provisioned for your organization. For each environment, the dashboard displays:
+
+| Column | Description |
+|---|---|
+| **Name** | The display name of the environment, typically indicating the product and purpose (for example, "RunMyJobs Production"). |
+| **Product** | The Redwood product the environment runs: RunMyJobs, Finance Automation, or JSCAPE. |
+| **Type** | The environment tier, such as Production or Non-Production. |
+| **Region** | The cloud region or data center where the environment is hosted. |
+| **Status** | The current operational state of the environment (see below). |
+
+## Environment status indicators
+
+Each environment displays a status badge that reflects its current health and availability:
+
+- **Active** — The environment is running normally and available to connect to.
+- **Maintenance** — The environment is temporarily unavailable while Redwood performs scheduled maintenance or an upgrade.
+- **Degraded** — The environment is running but experiencing reduced performance or partial unavailability. Redwood support is typically already investigating.
+- **Unavailable** — The environment cannot be reached. This may be caused by an incident or a provisioning issue.
+
+<Info>
+  If an environment shows a **Degraded** or **Unavailable** status and you have not received a notification from Redwood, open a support case so the team can investigate.
+</Info>
+
+## Next steps
+
+<CardGroup cols={2}>
+  <Card title="Connect to an environment" icon="plug" href="/environments/connecting">
+    Learn how to launch your RunMyJobs, Finance Automation, or JSCAPE environments from the portal.
+  </Card>
+  <Card title="Manage environments" icon="sliders" href="/environments/managing">
+    View environment details, check health, and manage environment-level settings.
+  </Card>
+</CardGroup>

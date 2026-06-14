@@ -1,0 +1,118 @@
+---
+title: "View your Redwood contract and entitlement details"
+description: "Access your Redwood contract information in the Cloud Portal, including subscription terms, licensed products, entitlement limits, and renewal dates."
+sidebarTitle: "Contract Details"
+---
+
+The Contract Details section of the Redwood Cloud Portal gives you direct access to the terms of your Redwood subscription—what products you have licensed, how much of each resource you are entitled to use, and when your contract starts and ends. Having this information in one place makes it straightforward to plan capacity, prepare for renewals, and answer questions from your internal stakeholders.
+
+## What contract details are available
+
+The portal exposes the key commercial and entitlement information from your Redwood subscription agreement, including:
+
+- **Licensed products** — The Redwood products covered by your contract (RunMyJobs, Finance Automation, JSCAPE).
+- **Entitlement limits** — The maximum usage allowed for each tracked metric per product.
+- **Contract start and end dates** — The active term of your subscription.
+- **Renewal date** — When your contract is due for renewal.
+
+<Info>
+  The contract data in the portal reflects what is on file with Redwood. If you believe any detail is incorrect, contact your Redwood account manager to request a correction.
+</Info>
+
+## Navigate to Contract Details
+
+<Steps>
+  <Step title="Sign in to the portal">
+    Go to [portal.redwood.cloud](https://portal.redwood.cloud/) and sign in with your credentials.
+  </Step>
+  <Step title="Open Consumption">
+    In the left navigation, click **Consumption** to expand the section.
+  </Step>
+  <Step title="Select Contract Details">
+    Click **Contract Details** to open the contract information for your organization.
+  </Step>
+</Steps>
+
+<Note>
+  Viewing contract details requires an **Admin** role. If the **Consumption** section is not visible in your navigation, contact your organization's portal administrator.
+</Note>
+
+## Information displayed
+
+### Licensed products
+
+The **Licensed Products** table lists each Redwood product included in your contract. For each product you can see the product name, the edition or tier licensed, and the environment types covered (for example, production and non-production).
+
+### Entitlement levels
+
+Below the product list, the **Entitlements** section breaks down the specific limits for each metric associated with your licensed products. Typical entitlement fields include:
+
+| Field | Description |
+|---|---|
+| **Metric** | The resource being measured (e.g., job executions, file transfers) |
+| **Limit** | The maximum value allowed per billing period |
+| **Scope** | Whether the limit applies per environment or across all environments |
+
+### Contract dates
+
+The **Contract Term** panel shows your contract start date, end date, and renewal date. Review these dates periodically so you are not caught off guard by an upcoming renewal.
+
+## Understand your entitlements vs. current usage
+
+The Contract Details page focuses on what you are entitled to. To compare those entitlements against your actual usage, navigate to [Consumption Overview](/consumption/overview), where the dashboard maps your usage directly against the limits shown here.
+
+A quick way to interpret your position:
+
+- If your usage is well below your entitlement limits, you have room to grow without renegotiating your contract.
+- If your usage is consistently close to or at the limit, plan a conversation with your account manager before the next billing period begins.
+
+<Tip>
+  Open **Consumption Overview** and **Contract Details** side by side (or in two browser tabs) to compare entitlement limits with real-time usage data.
+</Tip>
+
+## What happens when you approach entitlement limits
+
+Approaching your entitlement limit does not automatically trigger an interruption to your service, but it is a signal to take action. Redwood's standard practice is to notify your organization's portal admin when usage reaches a defined threshold (typically 80% of the entitlement).
+
+<Warning>
+  Sustained usage at or above your entitlement limit may result in overage charges or service restrictions depending on the terms of your contract. Review your agreement or speak with your account manager for specifics.
+</Warning>
+
+When you see usage trending toward a limit:
+
+1. Review the trend charts in [Consumption Overview](/consumption/overview) to understand whether the increase is temporary or ongoing.
+2. Identify whether usage can be optimized (for example, removing redundant scheduled jobs or archiving old data).
+3. Contact your Redwood account manager if a permanent increase in entitlement is needed.
+
+## Contact your Redwood account manager
+
+For any questions about your contract terms, entitlement increases, or renewal options, reach out to your Redwood account manager directly. Common reasons to contact your account manager include:
+
+- Adding a new Redwood product to your subscription.
+- Increasing an entitlement limit ahead of a growth period.
+- Discussing renewal terms before your contract end date.
+- Clarifying a discrepancy between the portal data and your contract documentation.
+
+<Tip>
+  Your account manager's contact information is included in your original subscription documentation. Your organization's portal administrator may also have this information on file.
+</Tip>
+
+## Export contract or entitlement information
+
+To share contract details with colleagues or for record-keeping, you can export the data from the Contract Details page:
+
+<Steps>
+  <Step title="Open Contract Details">
+    Navigate to **Consumption** > **Contract Details** in the portal.
+  </Step>
+  <Step title="Click Export">
+    Select **Export** in the upper-right corner of the page.
+  </Step>
+  <Step title="Choose a format">
+    Choose your preferred format (CSV or PDF) and confirm the download.
+  </Step>
+</Steps>
+
+<Note>
+  Exported files reflect a point-in-time snapshot of your contract data. For the most current information, always refer to the live portal view.
+</Note>

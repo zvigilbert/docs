@@ -1,0 +1,72 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "name": "Redwood Cloud Portal",
+  "theme": "almond",
+  "colors": {
+    "primary": "#e4535d",
+    "light": "#f2aab1"
+  },
+  "favicon": "https://media.brand.dev/9ecccc75-e13b-44f5-ac67-370951823ad2.png",
+  "navbar": {
+    "primary": {
+      "type": "button",
+      "label": "Go to Portal",
+      "href": "https://portal.redwood.cloud/"
+    }
+  },
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "getting-started/accessing-the-portal",
+              "getting-started/portal-overview"
+            ]
+          },
+          {
+            "group": "Environments",
+            "pages": [
+              "environments/overview",
+              "environments/connecting",
+              "environments/managing"
+            ]
+          },
+          {
+            "group": "Upgrades",
+            "pages": [
+              "upgrades/overview",
+              "upgrades/scheduling",
+              "upgrades/upgrade-windows"
+            ]
+          },
+          {
+            "group": "Users & Access",
+            "pages": [
+              "users/managing-users",
+              "users/roles-and-permissions",
+              "users/single-sign-on"
+            ]
+          },
+          {
+            "group": "Monitoring",
+            "pages": [
+              "monitoring/activity-logs",
+              "monitoring/notifications"
+            ]
+          },
+          {
+            "group": "Consumption & Contracts",
+            "pages": [
+              "consumption/overview",
+              "consumption/contract-details"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
