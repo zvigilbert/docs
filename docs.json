@@ -20,10 +20,9 @@
         "tab": "Documentation",
         "groups": [
           {
-            "group": "Get Started",
+            "group": "Untitled Group",
             "pages": [
-              "introduction",
-              "index"
+              "untitled-page"
             ]
           },
           {
@@ -68,12 +67,6 @@
             ]
           },
           {
-            "group": "Upgrades",
-            "pages": [
-              "upgrades/schedulingupgrades"
-            ]
-          },
-          {
             "group": "UI Reference",
             "pages": [
               "uireference/dashboardscreen",
@@ -82,16 +75,6 @@
               "uireference/help",
               "uireference/security",
               "uireference/usersettingsscreen",
-              {
-                "group": "Environments",
-                "pages": [
-                  "uireference/environments/newupgradesscreen",
-                  "uireference/environments/restartsscreen",
-                  "uireference/environments/settingsscreen",
-                  "uireference/environments/upgradesscreen",
-                  "uireference/environments/upgradewindowsscreen"
-                ]
-              },
               {
                 "group": "Finance",
                 "pages": [
@@ -119,6 +102,9 @@
             ]
           }
         ]
+      },
+      {
+        "tab": "Untitled Tab"
       }
     ]
   }
