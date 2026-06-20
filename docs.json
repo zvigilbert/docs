@@ -1,4 +1,4 @@
-a{
+{
   "$schema": "https://mintlify.com/docs.json",
   "name": "Redwood Cloud Portal",
   "theme": "almond",
