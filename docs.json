@@ -85,8 +85,8 @@
                 "group": "Environments",
                 "pages": [
                   "UIReference/Environments/newupgradesscreen",
-                  "UIReference/Environments/restartsscreen",
                   "UIReference/Environments/settingsscreen",
+                  "UIReference/Environments/restartsscreen",
                   "UIReference/Environments/upgradesscreen",
                   "UIReference/Environments/upgradewindowsscreen"
                 ]
