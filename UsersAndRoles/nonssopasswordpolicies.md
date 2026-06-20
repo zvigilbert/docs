@@ -1,7 +1,7 @@
 ---
-id: 6cb999da6fba
-source: UsersAndRoles\NonSSOPasswordPolicies.htm
 title: "Non-SSO Password Policies"
+id: "6cb999da6fba"
+source: "UsersAndRolesonSSOPasswordPolicies.htm"
 ---
 
 # Non-SSO Password Policies
@@ -15,8 +15,6 @@ Redwood strongly recommends using SSO for password management. If you use SSO, y
 - Lockout duration: Indefinite. The account remains locked until an administrator unlocks the account in the Redwood Cloud Portal.
 - Reversible encryption: No.
 - MFA: Browser must be verified via authentication number.
-
-## <a id="PasswordComplexityRules"></a>Complexity Rules {#PasswordComplexityRules}
 
 When an Administrator creates a User in the Redwood Cloud Portal, an email is sent to that user, asking them to set their password. Non-SSO user passwords must follow these complexity rules:
 

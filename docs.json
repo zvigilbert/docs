@@ -22,7 +22,7 @@
           {
             "group": "Get Started",
             "pages": [
-              "introduction",
+              "",
               "index"
             ]
           },
@@ -63,7 +63,6 @@
           {
             "group": "Notifications",
             "pages": [
-              "Notifications/settingupnotificationcontacts",
               "Notifications/settingupnotifications"
             ]
           },
