@@ -23,46 +23,99 @@
             "group": "Get Started",
             "pages": [
               "introduction",
-              "getting-started/accessing-the-portal",
-              "getting-started/portal-overview"
+              "index"
             ]
           },
           {
-            "group": "Environments",
+            "group": "What's New",
             "pages": [
-              "environments/overview",
-              "environments/connecting",
-              "environments/managing"
+              "whatsnew/releasenotes"
+            ]
+          },
+          {
+            "group": "Users & Roles",
+            "pages": [
+              "usersandroles/creatingusers",
+              "usersandroles/customroles",
+              "usersandroles/managingusersandroles",
+              "usersandroles/nonssopasswordpolicies",
+              "usersandroles/portalprivileges",
+              "usersandroles/redwoodsupportaccess",
+              "usersandroles/systemusers",
+              "usersandroles/viewingusersummaries"
+            ]
+          },
+          {
+            "group": "SSO Configuration",
+            "pages": [
+              "ssoconfiguration/ssoconfiguration",
+              "ssoconfiguration/settingupssowithazuread",
+              "ssoconfiguration/ssouserlicenses",
+              "ssoconfiguration/userinactivity"
+            ]
+          },
+          {
+            "group": "Security",
+            "pages": [
+              "security/defaulttimeoutperiod"
+            ]
+          },
+          {
+            "group": "Notifications",
+            "pages": [
+              "notifications/settingupnotificationcontacts",
+              "notifications/settingupnotifications"
             ]
           },
           {
             "group": "Upgrades",
             "pages": [
-              "upgrades/overview",
-              "upgrades/scheduling",
-              "upgrades/upgrade-windows"
+              "upgrades/schedulingupgrades"
             ]
           },
           {
-            "group": "Users & Access",
+            "group": "UI Reference",
             "pages": [
-              "users/managing-users",
-              "users/roles-and-permissions",
-              "users/single-sign-on"
+              "uireference/dashboardscreen",
+              "uireference/environments",
+              "uireference/finance",
+              "uireference/help",
+              "uireference/security",
+              "uireference/usersettingsscreen",
+              {
+                "group": "Environments",
+                "pages": [
+                  "uireference/environments/newupgradesscreen",
+                  "uireference/environments/restartsscreen",
+                  "uireference/environments/settingsscreen",
+                  "uireference/environments/upgradesscreen",
+                  "uireference/environments/upgradewindowsscreen"
+                ]
+              },
+              {
+                "group": "Finance",
+                "pages": [
+                  "uireference/finance/consumptionscreen",
+                  "uireference/finance/contractsscreen"
+                ]
+              },
+              {
+                "group": "Security",
+                "pages": [
+                  "uireference/security/activityscreen",
+                  "uireference/security/contactsscreen",
+                  "uireference/security/rolesscreen",
+                  "uireference/security/ssoscreen",
+                  "uireference/security/usersscreen"
+                ]
+              }
             ]
           },
           {
-            "group": "Monitoring",
+            "group": "About",
             "pages": [
-              "monitoring/activity-logs",
-              "monitoring/notifications"
-            ]
-          },
-          {
-            "group": "Consumption & Contracts",
-            "pages": [
-              "consumption/overview",
-              "consumption/contract-details"
+              "about/contactus",
+              "about/copyrightnotice"
             ]
           }
         ]
