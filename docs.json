@@ -35,7 +35,7 @@
           {
             "group": "Users & Roles",
             "pages": [
-              "UsersAndRoles/creatingusers",
+              "UsersAndRoles/creating-users",
               "UsersAndRoles/customroles",
               "UsersAndRoles/managingusersandroles",
               "UsersAndRoles/nonssopasswordpolicies",
