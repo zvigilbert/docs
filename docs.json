@@ -1,6 +1,7 @@
-{
-  "theme": "almond",
+a{
+  "$schema": "https://mintlify.com/docs.json",
   "name": "Redwood Cloud Portal",
+  "theme": "almond",
   "colors": {
     "primary": "#e4535d",
     "light": "#f2aab1"
@@ -13,14 +14,13 @@
       "href": "https://portal.redwood.cloud/"
     }
   },
-  "$schema": "https://mintlify.com/docs.json",
   "navigation": {
     "tabs": [
       {
-        "tab": "Docs",
+        "tab": "Documentation",
         "groups": [
           {
-            "group": "Get Started",
+            "group": "Get Started",[]
             "pages": [
               "introduction",
               "index"
@@ -29,42 +29,41 @@
           {
             "group": "What's New",
             "pages": [
-              "WhatsNew/releasenotes"
+              "whatsnew/releasenotes"
             ]
           },
           {
             "group": "Users & Roles",
             "pages": [
-              "UsersAndRoles/creating-users",
-              "UsersAndRoles/customroles",
-              "UsersAndRoles/managingusersandroles",
-              "UsersAndRoles/nonssopasswordpolicies",
-              "UsersAndRoles/portalprivileges",
-              "UsersAndRoles/redwoodsupportaccess",
-              "UsersAndRoles/systemusers",
-              "UsersAndRoles/viewingusersummaries"
+              "usersandroles/creatingusers",
+              "usersandroles/customroles",
+              "usersandroles/managingusersandroles",
+              "usersandroles/nonssopasswordpolicies",
+              "usersandroles/portalprivileges",
+              "usersandroles/redwoodsupportaccess",
+              "usersandroles/systemusers",
+              "usersandroles/viewingusersummaries"
             ]
           },
           {
             "group": "SSO Configuration",
             "pages": [
-              "SSOConfiguration/ssoconfiguration",
-              "SSOConfiguration/settingupssowithazuread",
-              "SSOConfiguration/ssouserlicenses",
-              "SSOConfiguration/userinactivity"
+              "ssoconfiguration/ssoconfiguration",
+              "ssoconfiguration/settingupssowithazuread",
+              "ssoconfiguration/ssouserlicenses",
+              "ssoconfiguration/userinactivity"
             ]
           },
           {
             "group": "Security",
             "pages": [
-              "Security/defaulttimeoutperiod"
+              "security/defaulttimeoutperiod"
             ]
           },
           {
             "group": "Notifications",
             "pages": [
-              "Notifications/settingupnotifications",
-              "Notifications/setting-up-notifications-contacts"
+              "notifications/settingupnotifications"
             ]
           },
           {
@@ -76,37 +75,36 @@
           {
             "group": "UI Reference",
             "pages": [
-              "UIReference/dashboardscreen",
-              "UIReference/environments",
-              "UIReference/finance",
-              "UIReference/help",
-              "UIReference/security",
-              "UIReference/usersettingsscreen",
+              "uireference/dashboardscreen",
+              "uireference/environments",
+              "uireference/finance",
+              "uireference/help",
+              "uireference/security",
+              "uireference/usersettingsscreen",
               {
                 "group": "Environments",
                 "pages": [
-                  "UIReference/Environments/newupgradesscreen",
-                  "UIReference/Environments/settingsscreen",
-                  "UIReference/Environments/restartsscreen",
-                  "UIReference/Environments/upgradesscreen",
-                  "UIReference/Environments/upgradewindowsscreen"
+                  "uireference/environments/newupgradesscreen",
+                  "uireference/environments/settingsscreen",
+                  "uireference/environments/upgradesscreen",
+                  "uireference/environments/upgradewindowsscreen"
                 ]
               },
               {
                 "group": "Finance",
                 "pages": [
-                  "UIReference/Finance/consumptionscreen",
-                  "UIReference/Finance/contractsscreen"
+                  "uireference/finance/consumptionscreen",
+                  "uireference/finance/contractsscreen"
                 ]
               },
               {
                 "group": "Security",
                 "pages": [
-                  "UIReference/Security/activityscreen",
-                  "UIReference/Security/contactsscreen",
-                  "UIReference/Security/rolesscreen",
-                  "UIReference/Security/ssoscreen",
-                  "UIReference/Security/usersscreen"
+                  "uireference/security/activityscreen",
+                  "uireference/security/contactsscreen",
+                  "uireference/security/rolesscreen",
+                  "uireference/security/ssoscreen",
+                  "uireference/security/usersscreen"
                 ]
               }
             ]
@@ -114,8 +112,8 @@
           {
             "group": "About",
             "pages": [
-              "About/contactus",
-              "About/copyrightnotice"
+              "about/contactus",
+              "about/copyrightnotice"
             ]
           }
         ]
