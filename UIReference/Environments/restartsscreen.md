@@ -1,6 +1,5 @@
 ---
 id: "a2cd5b2e63ed"
-source: "UIReference\Environments\RestartsScreen.htm"
 title: "Restarts Screen"
 ---
 
