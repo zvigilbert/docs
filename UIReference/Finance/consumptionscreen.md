@@ -4,6 +4,6 @@ source: UIReference\Finance\ConsumptionScreen.htm
 title: "Consumption Screen"
 ---
 
-# Consumption Screen
+
 
 WHAT IS THIS SCREEN FOR?

@@ -4,7 +4,7 @@ source: Notifications\SettingUpNotifications.htm
 title: "Setting Up Notifications"
 ---
 
-# Setting Up Notifications
+
 
 You can configure the Redwood Cloud Portal so that you will receive notifications when problems occur with your RunMyJobs SaaS instance.
 

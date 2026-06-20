@@ -4,7 +4,7 @@ source: UIReference\Environments\NewUpgradesScreen.htm
 title: "Upgrades Screen"
 ---
 
-# Upgrades Screen
+
 
 Redwood strives for optimum reliability and security in its SaaS environments. Consequently, upgrades are mandatory, although patch-level upgrades are optional for Finance Automation environments. Upgrades are announced via Message of the Day in the SaaS dashboard; *General – Notifications/Reports* contacts *(Security > Contacts)* will be informed via email. For RunMyJobs, all three environments (development, test, production) must be upgraded following a precise calendar, based on the day of the release.
 

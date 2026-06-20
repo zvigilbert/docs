@@ -4,7 +4,7 @@ source: UsersAndRoles\ViewingUserSummaries.htm
 title: "Viewing User Summaries"
 ---
 
-# Viewing User Summaries
+
 
 To view a summary of all users, including their name, email, and role in each environment, navigate to *Security > Users* and then click the *Overview* tab at the top. This screen also shows which users are counted against your license.
 

@@ -4,7 +4,7 @@ source: SSOConfiguration\SSOUserLicenses.htm
 title: "SSO User Licenses"
 ---
 
-# SSO User Licenses
+
 
 If SSO is configured, adding users to groups is managed in your user management system. SSO users are added as soon as they access the Dashboard and count towards the license. User privileges are synchronized each time they log in,and are not automatically removed when you remove them from your SSO system or remove their access. Inactive users will see their account, but not their privileges nor their access, removed after 90 days. They will be able to log in again, provided they still have access according to the SSO system.
 

@@ -4,7 +4,7 @@ source: SSOConfiguration\SettingUpSSOWithAzureAD.htm
 title: "Setting Up SSO with Microsoft Entra (Azure AD)"
 ---
 
-# Setting Up SSO with Microsoft Entra (Azure AD)
+
 
 You can set up Single Sign-On (SSO) for RunMyJobs with all identity providers that both support SAML and offer a public metadata URL.
 

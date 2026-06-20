@@ -4,7 +4,7 @@ source: UIReference\Environments\UpgradesScreen.htm
 title: "Upgrades Screen"
 ---
 
-# Upgrades Screen
+
 
 The Upgrades screen lets you schedule upgrades for each environment. You can use this screen if you prefer to upgrade your environments manually rather than using one of the *[Scheduled Upgrade Plan](settingsscreen.md#ScheduledUpgradePlan)* options in the [*Settings* screen](settingsscreen).
 

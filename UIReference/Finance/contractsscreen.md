@@ -4,6 +4,6 @@ source: UIReference\Finance\ContractsScreen.htm
 title: "Contracts Screen"
 ---
 
-# Contracts Screen
+
 
 WHAT IS THIS SCREEN FOR?

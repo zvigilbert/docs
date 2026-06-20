@@ -4,7 +4,7 @@ source: About\CopyrightNotice.htm
 title: "Copyright Notice"
 ---
 
-# Copyright Notice
+
 
 Copyright © 1993-2025 Redwood Technology B.V., Houten, The Netherlands. All rights reserved.
 

@@ -4,7 +4,7 @@ source: Upgrades\SchedulingUpgrades.htm
 title: "Scheduling Upgrades"
 ---
 
-# Scheduling Upgrades
+
 
 The Redwood Cloud Portal lets you configure the following upgrade settings.
 

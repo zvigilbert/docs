@@ -4,7 +4,7 @@ source: UIReference\UserSettingsScreen.htm
 title: "User Settings Screen"
 ---
 
-# User Settings Screen
+
 
 The *User Settings* screen lets you configure various options for the active user. To display the *User Settings* screen, click ![](../assets/images/UserSettingsButton.png) at the upper right.
 

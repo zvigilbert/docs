@@ -4,7 +4,7 @@ id: "6cb999da6fba"
 source: "UsersAndRolesonSSOPasswordPolicies.htm"
 ---
 
-# Non-SSO Password Policies
+
 
 Redwood strongly recommends using SSO for password management. If you use SSO, your Identity Provider can control all security and monitoring. However, if you do NOT use SSO, the policies for passwords are as follows.
 

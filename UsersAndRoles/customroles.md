@@ -4,7 +4,7 @@ source: UsersAndRoles\CustomRoles.htm
 title: "Custom Roles"
 ---
 
-# Custom Roles
+
 
 You can use the Custom Roles feature to grant access to specific [Objects](../objects/aboutobjects) to users who would not otherwise have access to those Objects.
 

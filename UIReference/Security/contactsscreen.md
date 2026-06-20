@@ -4,6 +4,6 @@ source: UIReference\Security\ContactsScreen.htm
 title: "Contacts Screen"
 ---
 
-# Contacts Screen
+
 
 WHAT IS THIS SCREEN FOR?

@@ -4,7 +4,7 @@ source: SSOConfiguration\SSOConfiguration.htm
 title: "SSO Configuration"
 ---
 
-# SSO Configuration
+
 
 Centralized user administration is key in organizations, both for ease of user management and from a security perspective. Best practice is to use Single Sign-On (SSO), providing end users with the convenience of only having to remember one set of credentials, and providing company administrators with a single point of management and a way to make sure their corporate password policies are enforced.
 

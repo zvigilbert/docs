@@ -4,7 +4,7 @@ source: Security\DefaultTimeoutPeriod.htm
 title: "Default Timeout Period"
 ---
 
-# Default Timeout Period
+
 
 To set the period after which inactive logged-in users will be logged out of the Redwood Cloud Portal, navigate to *Security > Users*, click the *Company Settings* tab, and then choose an option from the *Timeout* dropdown list. This option does not affect environment session timeout, which is managed within the product.
 

@@ -4,7 +4,7 @@ source: UIReference\Environments\UpgradeWindowsScreen.htm
 title: "Upgrade Windows Screen"
 ---
 
-# Upgrade Windows Screen
+
 
 The Redwood Cloud Portal lets you [schedule upgrades](../../upgrades/schedulingupgrades) for a time that is convenient for you. If you have multiple environments, you can stagger upgrades rather than upgrading all of them at once.
 

@@ -4,7 +4,7 @@ source: UIReference\Help.htm
 title: "Help"
 ---
 
-# Help
+
 
 The Help section of the navigation bar includes links to the following sites:
 

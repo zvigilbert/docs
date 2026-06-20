@@ -4,7 +4,7 @@ source: UsersAndRoles\PortalPrivileges.htm
 title: "Portal Privileges"
 ---
 
-# Portal Privileges
+
 
 Portal Privileges control what your users can view and manage within the cloud portal itself. These roles do not affect roles within our products.
 

@@ -4,7 +4,7 @@ source: UIReference\Security\SSOScreen.htm
 title: "SSO Screen"
 ---
 
-# SSO Screen
+
 
 The SSO screen lets you connect the product with a SAML 2.0 external identity provider.
 

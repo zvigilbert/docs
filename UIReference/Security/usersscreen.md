@@ -4,7 +4,7 @@ source: UIReference\Security\UsersScreen.htm
 title: "Users Screen"
 ---
 
-# Users Screen
+
 
 The *Users* screen lets you view and configure all Users that are registered for your organization. It includes the following tabs:
 

@@ -4,7 +4,7 @@ source: UIReference\Environments\SettingsScreen.htm
 title: "Settings Screen"
 ---
 
-# Settings Screen
+
 
 The *Settings* screen (*Environments* > *Settings*) lets you configure settings for each of your environments.
 

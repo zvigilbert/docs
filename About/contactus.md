@@ -4,7 +4,7 @@ source: About\ContactUs.htm
 title: "Contact Us"
 ---
 
-# Contact Us
+
 
 Founded in 1993, Redwood Software ([www.Redwood.com](http://www.Redwood.com)) enables organizations to maximize the value of their IT infrastructure and business information through effective, event-driven business process automation, process scheduling and enterprise report management solutions. Redwood products such as Cronacle and Report2Web produce proven return-on-investment (ROI) within as little as a few weeks by optimizing IT resource utilization and improving the global availability and timeliness of information delivery. Redwood customers number more than 800 organizations worldwide and range from retail, manufacturing and financial giants listed on Fortune's global list of the worlds 50 largest companies to community hospitals, universities and other regionally run businesses. Redwood is a global organization with offices in the U.S., the U.K., the Netherlands, Switzerland and Germany. Redwood is a registered trademark and Cronacle and Report2Web are trademarks of Redwood Software. All other products or company names mentioned are used for identification purposes only and may be trademarks of their respective owners. Please visit our website at [http://www.redwood.com](http://www.redwood.com).
 

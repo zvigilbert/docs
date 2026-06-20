@@ -4,6 +4,6 @@ source: UIReference\Finance.htm
 title: "Finance"
 ---
 
-# Finance
+
 
 Delete this text and replace it with your own content.

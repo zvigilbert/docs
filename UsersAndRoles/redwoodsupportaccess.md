@@ -4,7 +4,7 @@ source: UsersAndRoles\RedwoodSupportAccess.htm
 title: "Redwood Support Access"
 ---
 
-# Redwood Support Access
+
 
 Redwood employees with the Staff Support Role can obtain read-only access to customer environments, controlled via Redwood SSO security groups.
 
