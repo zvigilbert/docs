@@ -20,76 +20,93 @@
         "tab": "Documentation",
         "groups": [
           {
-            "group": "Untitled Group",
+            "group": "Get Started",
             "pages": [
-              "untitled-page"
+              "introduction",
+              "index"
             ]
           },
           {
             "group": "What's New",
             "pages": [
-              "whatsnew/releasenotes"
+              "WhatsNew/releasenotes"
             ]
           },
           {
             "group": "Users & Roles",
             "pages": [
-              "usersandroles/creatingusers",
-              "usersandroles/customroles",
-              "usersandroles/managingusersandroles",
-              "usersandroles/nonssopasswordpolicies",
-              "usersandroles/portalprivileges",
-              "usersandroles/redwoodsupportaccess",
-              "usersandroles/systemusers",
-              "usersandroles/viewingusersummaries"
+              "UsersAndRoles/creatingusers",
+              "UsersAndRoles/customroles",
+              "UsersAndRoles/managingusersandroles",
+              "UsersAndRoles/nonssopasswordpolicies",
+              "UsersAndRoles/portalprivileges",
+              "UsersAndRoles/redwoodsupportaccess",
+              "UsersAndRoles/systemusers",
+              "UsersAndRoles/viewingusersummaries"
             ]
           },
           {
             "group": "SSO Configuration",
             "pages": [
-              "ssoconfiguration/ssoconfiguration",
-              "ssoconfiguration/settingupssowithazuread",
-              "ssoconfiguration/ssouserlicenses",
-              "ssoconfiguration/userinactivity"
+              "SSOConfiguration/ssoconfiguration",
+              "SSOConfiguration/settingupssowithazuread",
+              "SSOConfiguration/ssouserlicenses",
+              "SSOConfiguration/userinactivity"
             ]
           },
           {
             "group": "Security",
             "pages": [
-              "security/defaulttimeoutperiod"
+              "Security/defaulttimeoutperiod"
             ]
           },
           {
             "group": "Notifications",
             "pages": [
-              "notifications/settingupnotificationcontacts",
-              "notifications/settingupnotifications"
+              "Notifications/settingupnotificationcontacts",
+              "Notifications/settingupnotifications"
+            ]
+          },
+          {
+            "group": "Upgrades",
+            "pages": [
+              "upgrades/schedulingupgrades"
             ]
           },
           {
             "group": "UI Reference",
             "pages": [
-              "uireference/dashboardscreen",
-              "uireference/environments",
-              "uireference/finance",
-              "uireference/help",
-              "uireference/security",
-              "uireference/usersettingsscreen",
+              "UIReference/dashboardscreen",
+              "UIReference/environments",
+              "UIReference/finance",
+              "UIReference/help",
+              "UIReference/security",
+              "UIReference/usersettingsscreen",
+              {
+                "group": "Environments",
+                "pages": [
+                  "UIReference/Environments/newupgradesscreen",
+                  "UIReference/Environments/restartsscreen",
+                  "UIReference/Environments/settingsscreen",
+                  "UIReference/Environments/upgradesscreen",
+                  "UIReference/Environments/upgradewindowsscreen"
+                ]
+              },
               {
                 "group": "Finance",
                 "pages": [
-                  "uireference/finance/consumptionscreen",
-                  "uireference/finance/contractsscreen"
+                  "UIReference/Finance/consumptionscreen",
+                  "UIReference/Finance/contractsscreen"
                 ]
               },
               {
                 "group": "Security",
                 "pages": [
-                  "uireference/security/activityscreen",
-                  "uireference/security/contactsscreen",
-                  "uireference/security/rolesscreen",
-                  "uireference/security/ssoscreen",
-                  "uireference/security/usersscreen"
+                  "UIReference/Security/activityscreen",
+                  "UIReference/Security/contactsscreen",
+                  "UIReference/Security/rolesscreen",
+                  "UIReference/Security/ssoscreen",
+                  "UIReference/Security/usersscreen"
                 ]
               }
             ]
@@ -97,14 +114,11 @@
           {
             "group": "About",
             "pages": [
-              "about/contactus",
-              "about/copyrightnotice"
+              "About/contactus",
+              "About/copyrightnotice"
             ]
           }
         ]
-      },
-      {
-        "tab": "Untitled Tab"
       }
     ]
   }
