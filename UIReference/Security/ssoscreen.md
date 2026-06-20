@@ -11,7 +11,7 @@ The SSO screen lets you connect the product with a SAML 2.0 external identity p
 The tabs at the top represent connected SSO providers. The *Add New* tab lets you add a new identity provider.
 
 !!! note
-    For information on adding an SSO configuration, see [SSO Configuration](../../ssoconfiguration/ssoconfiguration.md).
+    For information on adding an SSO configuration, see [SSO Configuration](../../ssoconfiguration/ssoconfiguration).
 
 The remaining UI lets you set up access groups, configure the SSO connection, and view SSO activity.
 
@@ -30,12 +30,12 @@ The right side displays details about the selected access group, both in general
     !!! note
         If you are using Azure, this must be the security group ID, rather than the security group name.
 - *Description*: A human-readable description of the security group.
-- *Portal Privileges*: Lets you specify [portal privileges](../../usersandroles/portalprivileges.md) for the selected access group.
+- *Portal Privileges*: Lets you specify [portal privileges](../../usersandroles/portalprivileges) for the selected access group.
 
 Below this is a section for each of your environments. These sections include the following controls:
 
 - *Role*: A built-in Role to assign to the access group.
-- *Custom Roles*: One or more [custom Roles](../../usersandroles/customroles.md) to assign to the access group. You can click *Add custom role* to add a custom Role.
+- *Custom Roles*: One or more [custom Roles](../../usersandroles/customroles) to assign to the access group. You can click *Add custom role* to add a custom Role.
 
 ### Actions Menu
 

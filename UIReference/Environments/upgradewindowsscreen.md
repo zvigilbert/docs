@@ -6,7 +6,7 @@ title: "Upgrade Windows Screen"
 
 # Upgrade Windows Screen
 
-The Redwood Cloud Portal lets you [schedule upgrades](../../upgrades/schedulingupgrades.md) for a time that is convenient for you. If you have multiple environments, you can stagger upgrades rather than upgrading all of them at once.
+The Redwood Cloud Portal lets you [schedule upgrades](../../upgrades/schedulingupgrades) for a time that is convenient for you. If you have multiple environments, you can stagger upgrades rather than upgrading all of them at once.
 
 The *Upgrade Windows* screen lets you specify when you prefer to upgrade each environment. To view this screen, navigate to *Environments > Upgrade Windows*. A vertical list of your environments displays.
 

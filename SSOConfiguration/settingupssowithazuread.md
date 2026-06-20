@@ -51,4 +51,4 @@ To do this with Azure Active Directory:
     ![](../assets/images/SettingUpSSOwAzureAD09.png)
 9. Click *Users and Groups* on the left, then assign the users or groups that should have access to RunMyJobs.
     ![](../assets/images/SettingUpSSOwAzureAD10.png)
-10. [Activate SSO with RunMyJobs](ssoconfiguration.md).
+10. [Activate SSO with RunMyJobs](ssoconfiguration).

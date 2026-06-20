@@ -18,7 +18,7 @@ The area on the right provides access to Notifications, lets you view recent act
 
 The Name field lets you change the name of the environment as it displays in the Redwood Cloud Portal.
 
-The *Display Order* field lets you change the order in which environments display on the [*Dashboard* screen](../dashboardscreen.md). Environments with lower *Display Order* numbers display before environments with higher numbers. You can also control the order of the environments by dragging and dropping the tabs on this screen.
+The *Display Order* field lets you change the order in which environments display on the [*Dashboard* screen](../dashboardscreen). Environments with lower *Display Order* numbers display before environments with higher numbers. You can also control the order of the environments by dragging and dropping the tabs on this screen.
 
 !!! note
     If you reorder the tabs via drag-and-drop, the *Display Order* field does not update until the site is reloadced.
@@ -50,7 +50,7 @@ The *Upgrade Details* section lets you select an upgrade plan and chooses which 
 The options for *Scheduled Upgrade Plan* are:
 
 - *Manual Upgrade*: You must manually schedule all upgrades.
-- *Scheduled Upgrade (patch & major releases)*: Upgrades will be scheduled for all new releases, per the selected [upgrade window](upgradewindowsscreen.md).
+- *Scheduled Upgrade (patch & major releases)*: Upgrades will be scheduled for all new releases, per the selected [upgrade window](upgradewindowsscreen).
 - *Immediate*: An upgrade will occur immediately.
 - *Scheduled Upgrade (major releases only)*: Upgrades will be scheduled only for major releases, per the selected upgrade window.
 - *Scheduled upgrade (patch releases only)*: Upgrades will be scheduled only for patch releases, per the selected upgrade window.

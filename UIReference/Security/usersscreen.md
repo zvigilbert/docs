@@ -16,13 +16,13 @@ It also includes a [Filter](#Filter) area for filtering the results shown in the
 
 ## <a id="Manage"></a>Manage Tab {#Manage}
 
-The *Manage* tab lists all Users on the left, and allows you to configure whichever User is selected. You can specify the User's name and email address and set the User's [portal privileges](../../usersandroles/portalprivileges.md).
+The *Manage* tab lists all Users on the left, and allows you to configure whichever User is selected. You can specify the User's name and email address and set the User's [portal privileges](../../usersandroles/portalprivileges).
 
 ![](../../assets/images/UsersManageTopArea.png)
 
-Below the first section, there is a list of the installed environments. For each environment, you can choose a [Role](rolesscreen.md) for the selected User.
+Below the first section, there is a list of the installed environments. For each environment, you can choose a [Role](rolesscreen) for the selected User.
 
-If the environment includes [custom Roles](../../usersandroles/customroles.md), you can assign them to the selected User. If a custom Role is already selected, it displays with a checked check box. If there are unselected custom Roles, you can display them by clicking *Show unselected custom roles*.
+If the environment includes [custom Roles](../../usersandroles/customroles), you can assign them to the selected User. If a custom Role is already selected, it displays with a checked check box. If there are unselected custom Roles, you can display them by clicking *Show unselected custom roles*.
 
 ![](../../assets/images/UsersManageEnvironmentRole.png)
 

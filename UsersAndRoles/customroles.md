@@ -6,16 +6,16 @@ title: "Custom Roles"
 
 # Custom Roles
 
-You can use the Custom Roles feature to grant access to specific [Objects](../objects/aboutobjects.md) to users who would not otherwise have access to those Objects.
+You can use the Custom Roles feature to grant access to specific [Objects](../objects/aboutobjects) to users who would not otherwise have access to those Objects.
 
 Custom roles have no specific privileges in the Redwood Cloud Portal. They are simply named roles that can be applied to users.
 
 ## Applying Custom Roles to Objects
 
-To make a custom role actually do something, you have to assign the custom role to an Object. For example, assume you have created a custom role named *Special_Operators*, and you would like all users with this custom role to be able to submit and view the [[UNRESOLVED: General.Workflow]](../jobsandworkflows/workflows/aboutworkflowdefinitions.md) named *Special_Workflow* on the [Queue](../queues/aboutqueues.md) named *Special_Queue*
+To make a custom role actually do something, you have to assign the custom role to an Object. For example, assume you have created a custom role named *Special_Operators*, and you would like all users with this custom role to be able to submit and view the [[UNRESOLVED: General.Workflow]](../jobsandworkflows/workflows/aboutworkflowdefinitions) named *Special_Workflow* on the [Queue](../queues/aboutqueues) named *Special_Queue*
 
 !!! note
-    For more information on Object privileges, see [Granting and Revoking Object Privileges](../security/privileges/grantingobjectprivileges.md).
+    For more information on Object privileges, see [Granting and Revoking Object Privileges](../security/privileges/grantingobjectprivileges).
 
 To make this happen, you would:
 
@@ -43,7 +43,7 @@ To create a custom role:
 
 ## Assigning Custom Roles to Users
 
-For information on assigning custom roles to users, see [Managing Users and Roles](managingusersandroles.md).
+For information on assigning custom roles to users, see [Managing Users and Roles](managingusersandroles).
 
 ## Considerations When Using Custom Roles
 

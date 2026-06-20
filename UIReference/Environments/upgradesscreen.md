@@ -6,7 +6,7 @@ title: "Upgrades Screen"
 
 # Upgrades Screen
 
-The Upgrades screen lets you schedule upgrades for each environment. You can use this screen if you prefer to upgrade your environments manually rather than using one of the *[Scheduled Upgrade Plan](settingsscreen.md#ScheduledUpgradePlan)* options in the [*Settings* screen](settingsscreen.md).
+The Upgrades screen lets you schedule upgrades for each environment. You can use this screen if you prefer to upgrade your environments manually rather than using one of the *[Scheduled Upgrade Plan](settingsscreen.md#ScheduledUpgradePlan)* options in the [*Settings* screen](settingsscreen).
 
 On this screen, your environments display as a horizontal row of tabs at the top.
 

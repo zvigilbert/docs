@@ -8,6 +8,6 @@ title: "Scheduling Upgrades"
 
 The Redwood Cloud Portal lets you configure the following upgrade settings.
 
-- To set up or disable automatic upgrades, use the [*Settings* screen](../uireference/environments/settingsscreen.md).
-- To specify when automatic upgrades are applied, use the [*Upgrade Windows* screen](../uireference/environments/upgradewindowsscreen.md).
-- To manually schedule an upgrade, use the [*Upgrades* screen](../uireference/environments/upgradesscreen.md).
+- To set up or disable automatic upgrades, use the [*Settings* screen](../uireference/environments/settingsscreen).
+- To specify when automatic upgrades are applied, use the [*Upgrade Windows* screen](../uireference/environments/upgradewindowsscreen).
+- To manually schedule an upgrade, use the [*Upgrades* screen](../uireference/environments/upgradesscreen).
