@@ -20,7 +20,7 @@
         "tab": "Documentation",
         "groups": [
           {
-            "group": "Get Started",
+            "group": "Get Started",[]
             "pages": [
               "introduction",
               "index"
