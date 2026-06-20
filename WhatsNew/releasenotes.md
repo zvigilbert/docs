@@ -1,6 +1,5 @@
 ---
 id: ed01ffcf401b
-source: WhatsNew\ReleaseNotes.htm
 title: "Release Notes"
 ---
 
