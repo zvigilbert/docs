@@ -1,7 +1,6 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
-  "name": "Redwood Cloud Portal",
   "theme": "almond",
+  "name": "Redwood Cloud Portal",
   "colors": {
     "primary": "#e4535d",
     "light": "#f2aab1"
@@ -14,6 +13,7 @@
       "href": "https://portal.redwood.cloud/"
     }
   },
+  "$schema": "https://mintlify.com/docs.json",
   "navigation": {
     "tabs": [
       {
