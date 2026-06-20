@@ -63,7 +63,8 @@
           {
             "group": "Notifications",
             "pages": [
-              "Notifications/settingupnotifications"
+              "Notifications/settingupnotifications",
+              "Notifications/setting-up-notifications-contacts"
             ]
           },
           {
